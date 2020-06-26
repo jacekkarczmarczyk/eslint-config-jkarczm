@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jkarczm",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Private opinionated eslint config for Vue/Vuetify/Typescript projects",
   "main": "index.js",
   "repository": {
