@@ -8,7 +8,7 @@ Private opinionated eslint config for Vue/Vuetify/Typescript projects
 ```js
 // index.js
 module.exports = {
-  'extends': ['jkarczm']
+  extends: ['jkarczm']
 }
 ```
 
