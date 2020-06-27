@@ -12,9 +12,8 @@ module.exports = {
   },
   extends: [
     'standard',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
     'plugin:vue/recommended',
+    'plugin:@typescript-eslint/recommended',
     '@vue/typescript/recommended',
   ],
   plugins: [
@@ -22,51 +21,21 @@ module.exports = {
     'vue',
     'node',
     '@typescript-eslint',
-    // 'vuetify',
+    'vuetify',
   ],
   rules: {
     // 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'always-multiline'],
-    'constructor-super': 'error',
-    'generator-star-spacing': 0,
-    indent: [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-      },
-    ],
     'object-shorthand': ['error', 'always'],
-    'no-const-assign': 'error',
     'no-empty': 'error',
     'no-extra-semi': 'error',
-    'no-redeclare': 'error',
-    'no-return-assign': 'error',
     'no-return-await': 'warn',
-    'no-template-curly-in-string': 'warn',
-    'no-this-before-super': 'warn',
-    'no-undef': 'error',
-    'no-unreachable': 'error',
-    'no-unused-vars': 'off',
     'newline-after-var': ['error', 'always'],
     'import/newline-after-import': 'error',
     semi: ['error', 'always'],
     'no-useless-constructor': 'off',
-    'space-infix-ops': 'error',
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'always',
-        named: 'always',
-        asyncArrow: 'always',
-      },
-    ],
-    'eol-last': [
-      'error',
-      'always',
-    ],
     'no-var': 'error',
     'one-var': [
       'error',
@@ -76,7 +45,6 @@ module.exports = {
       'error',
       'always',
     ],
-    'valid-typeof': 'error',
     'padding-line-between-statements': [
       'error',
       {
@@ -103,6 +71,8 @@ module.exports = {
       },
     ],
     'promise/prefer-await-to-then': 'error',
+
+    // Vue
     'vue/require-default-prop': 'off',
     'vue/no-v-html': 'off',
     'vue/prop-name-casing': 'error',
@@ -125,16 +95,17 @@ module.exports = {
       ],
       alphabetical: true,
     }],
-    'vue/no-static-inline-styles': 'off', // wip
+    // 'vue/no-static-inline-styles': 'off', // wip
     'vue/padding-line-between-blocks': ['error', 'always'],
 
-    // 'vuetify/no-deprecated-classes': 'error',
+    // Vuetify
+    'vuetify/no-deprecated-classes': 'error',
 
-    // eslint-recommended overrides
+    // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
 
-    // @typescript/eslint 3.0.0 / @vue/typescript/recommended overrides
+    // @vue/typescript/recommended overrides
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
@@ -159,8 +130,6 @@ module.exports = {
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 'error',
 
-        '@typescript-eslint/prefer-namespace-keyword': 'error',
-        '@typescript-eslint/adjacent-overload-signatures': 'error',
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': [
