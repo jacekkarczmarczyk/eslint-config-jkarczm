@@ -29,5 +29,12 @@ module.exports = {
     }],
     // 'vue/no-static-inline-styles': 'off', // wip
     'vue/padding-line-between-blocks': ['error', 'always'],
+
+    // @typescript-eslint/recommended overrides
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
 };
