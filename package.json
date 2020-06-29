@@ -2,7 +2,7 @@
   "name": "eslint-config-jkarczm",
   "version": "2.0.0-rc.1",
   "description": "Private opinionated eslint config for Vue/Vuetify/Typescript projects",
-  "main": "src/vue.js",
+  "main": "src/base.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacekkarczmarczyk/eslint-config-jkarczm.git"
