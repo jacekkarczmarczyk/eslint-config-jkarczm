@@ -12,16 +12,12 @@ module.exports = {
   },
   extends: [
     'standard',
-    'plugin:vue/recommended',
     'plugin:@typescript-eslint/recommended',
-    '@vue/typescript/recommended',
   ],
   plugins: [
     'html',
-    'vue',
     'node',
     '@typescript-eslint',
-    'vuetify',
   ],
   rules: {
     // 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -37,81 +33,29 @@ module.exports = {
     semi: ['error', 'always'],
     'no-useless-constructor': 'off',
     'no-var': 'error',
-    'one-var': [
-      'error',
-      'never',
-    ],
-    'one-var-declaration-per-line': [
-      'error',
-      'always',
-    ],
+    'one-var': ['error', 'never'],
+    'one-var-declaration-per-line': ['error', 'always'],
     'padding-line-between-statements': [
       'error',
       {
         blankLine: 'always',
-        prev: [
-          'const',
-          'let',
-          'var',
-        ],
+        prev: ['const', 'let', 'var'],
         next: '*',
       },
       {
         blankLine: 'never',
-        prev: [
-          'const',
-          'let',
-          'var',
-        ],
-        next: [
-          'const',
-          'let',
-          'var',
-        ],
+        prev: ['const', 'let', 'var'],
+        next: ['const', 'let', 'var'],
       },
     ],
     'promise/prefer-await-to-then': 'error',
 
-    // Vue
-    'vue/require-default-prop': 'off',
-    'vue/no-v-html': 'off',
-    'vue/prop-name-casing': 'error',
-    'vue/component-name-in-template-casing': ['error', 'kebab-case'],
-    'vue/singleline-html-element-content-newline': 'off',
-    'vue/multiline-html-element-content-newline': 'off',
-    'vue/attributes-order': ['error', {
-      order: [
-        'DEFINITION',
-        'LIST_RENDERING',
-        'CONDITIONALS',
-        'RENDER_MODIFIERS',
-        'GLOBAL',
-        'UNIQUE',
-        'TWO_WAY_BINDING',
-        'OTHER_DIRECTIVES',
-        'OTHER_ATTR',
-        'EVENTS',
-        'CONTENT',
-      ],
-      alphabetical: true,
-    }],
-    // 'vue/no-static-inline-styles': 'off', // wip
-    'vue/padding-line-between-blocks': ['error', 'always'],
-
-    // Vuetify
-    'vuetify/no-deprecated-classes': 'error',
-
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-use-before-define': 'off',
-
-    // @vue/typescript/recommended overrides
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/ban-ts-ignore': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off', // eslint 3.0
-    '@typescript-eslint/ban-ts-comment': 'off', // eslint 3.0
-    camelcase: 'off', // eslint 3.0
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
   overrides: [
     {
