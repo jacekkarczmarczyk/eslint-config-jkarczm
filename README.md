@@ -7,16 +7,30 @@ Ain't nobody got time for npm releases
 // package.json
 {
   "devDependencies": {
-    "eslint-config-jkarczm": "https://github.com/jacekkarczmarczyk/eslint-config-jkarczm#v1.0.0"
+    "eslint-config-jkarczm": "https://github.com/jacekkarczmarczyk/eslint-config-jkarczm#v2.0.0"
   }
 }
 ```
 
 ### Usage
 ```js
-// .eslintrc.js
+// .eslintrc.js - TS project
 module.exports = {
   extends: ['jkarczm']
+}
+```
+
+```js
+// .eslintrc.js - Vue project
+module.exports = {
+  extends: ['jkarczm/vue']
+}
+```
+
+```js
+// .eslintrc.js - Vuetify project
+module.exports = {
+  extends: ['jkarczm/vuetify']
 }
 ```
 
