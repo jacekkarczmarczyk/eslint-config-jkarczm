@@ -7,7 +7,7 @@ Ain't nobody got time for npm releases
 // package.json
 {
   "devDependencies": {
-    "eslint-config-jkarczm": "https://github.com/jacekkarczmarczyk/eslint-config-jkarczm#v2.0.0"
+    "eslint-config-jkarczm": "https://github.com/jacekkarczmarczyk/eslint-config-jkarczm#v2.0.1"
   }
 }
 ```
