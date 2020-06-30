@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     './index',
+    'plugin:vue/recommended',
     '@vue/typescript/recommended',
   ],
   plugins: ['vue'],
