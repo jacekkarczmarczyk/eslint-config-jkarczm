@@ -14,7 +14,8 @@
     "vuetify"
   ],
   "scripts": {
-    "lint": "eslint -c index.js *.js"
+    "lint": "eslint -c index.js *.js",
+    "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && yarn lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --chore=build+release && cz-sync --push --push-tags"
   },
   "author": "Jacek Karczmarczyk",
   "license": "MIT",
@@ -34,6 +35,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "conventional-changelog-cli": "^2.0.34",
+    "cz-deploy": "https://github.com/jacekkarczmarczyk/cz-deploy#v1.0.0-alpha.10",
     "eslint": "^7.0.0"
   },
   "peerDependencies": {
