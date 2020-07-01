@@ -820,9 +820,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-"cz-deploy@https://github.com/jacekkarczmarczyk/cz-deploy#v1.0.0-alpha.10":
-  version "1.0.0-alpha.10"
-  resolved "https://github.com/jacekkarczmarczyk/cz-deploy#d0def9266ac066ad4dc6cde123eec85141c8ed45"
+cz-deploy@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/cz-deploy/-/cz-deploy-1.0.0-rc.1.tgz#b53beb19bd39e2f95d9162a07feb537cacd84736"
+  integrity sha512-koNKZTDsqDh7XmNOuABtCwT5bJOQ+VytDL3Glnb4nf6zwBQnx6JAA6uuoABkbgGPwHpG0fUf7xb6hGBKsh00PA==
   dependencies:
     semver "^7.1.1"
     simple-git "^2.6.0"
