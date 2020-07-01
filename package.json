@@ -17,8 +17,7 @@
   ],
   "scripts": {
     "lint": "eslint -c index.js *.js",
-    "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && yarn lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags",
-    "publish": "npm publish"
+    "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && yarn lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.0.1",
