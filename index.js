@@ -47,8 +47,17 @@ module.exports = {
         prev: ['const', 'let', 'var'],
         next: ['const', 'let', 'var'],
       },
+      {
+        'blankLine': 'always',
+        'prev': '*',
+        'next': 'return',
+      },
     ],
     'promise/prefer-await-to-then': 'error',
+    'arrow-body-style': [
+      'error',
+      'as-needed',
+    ],
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'warn',
@@ -72,6 +81,7 @@ module.exports = {
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 'error',
 
+        '@typescript-eslint/no-implicit-any-catch': 'error',
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': [

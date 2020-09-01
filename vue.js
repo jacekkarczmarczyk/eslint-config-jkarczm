@@ -30,12 +30,17 @@ module.exports = {
     }],
     // 'vue/no-static-inline-styles': 'off', // wip
     'vue/padding-line-between-blocks': ['error', 'always'],
+    'vue/static-class-names-order': 'error',
+    'vue/require-name-property': 'error',
+    'vue/match-component-file-name': ['error', {
+      extensions: ['js', 'jsx', 'ts', 'tsx', 'vue'],
+      shouldMatchCase: true,
+    }],
+    'vue/no-reserved-component-names': 'error',
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/ban-ts-comment': 'off',
   },
 };
