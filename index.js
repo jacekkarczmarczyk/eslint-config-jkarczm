@@ -48,9 +48,9 @@ module.exports = {
         next: ['const', 'let', 'var'],
       },
       {
-        'blankLine': 'always',
-        'prev': '*',
-        'next': 'return',
+        blankLine: 'always',
+        prev: '*',
+        next: 'return',
       },
     ],
     'promise/prefer-await-to-then': 'error',
