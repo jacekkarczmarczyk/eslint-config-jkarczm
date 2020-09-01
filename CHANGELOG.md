@@ -1,3 +1,13 @@
+# [4.1.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v3.0.1...v4.1.0) (2020-09-01)
+
+
+### Features
+
+* [@typescript-eslint](https://github.com/typescript-eslint) 4.0 ([7b398dc](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/7b398dc9510bb24c4830956cdb68f6edba04d95b))
+* more rules ([0c63259](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/0c63259e17d5bca6ed08a74e65626f26c1b7d480))
+
+
+
 ## [3.0.1](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v2.0.2...v3.0.1) (2020-08-25)
 
 
