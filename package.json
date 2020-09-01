@@ -20,10 +20,10 @@
     "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && yarn lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.0.1",
-    "@typescript-eslint/parser": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
     "@vue/eslint-config-standard": "^5.1.2",
-    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/eslint-config-typescript": "^5.1.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.20.2",
@@ -38,10 +38,10 @@
     "babel-eslint": "^10.1.0",
     "conventional-changelog-cli": "^2.0.34",
     "cz-deploy": "^1.0.0-rc.1",
-    "eslint": "^7.0.0"
+    "eslint": "^7.8.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^7.8.0",
     "typescript": "~4.0.2",
     "vue": "^2.6.11",
     "vuetify": "^2.3.0"
