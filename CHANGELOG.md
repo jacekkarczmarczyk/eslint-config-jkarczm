@@ -1,3 +1,12 @@
+## [4.1.1](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v4.1.0...v4.1.1) (2020-09-01)
+
+
+### Bug Fixes
+
+* unnecessarily removed rules ([5a8e957](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/5a8e957ca8db102455d9c4b9f9d735e653052ae6))
+
+
+
 # [4.1.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v3.0.1...v4.1.0) (2020-09-01)
 
 
