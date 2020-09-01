@@ -32,10 +32,6 @@ module.exports = {
     'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/static-class-names-order': 'error',
     'vue/require-name-property': 'error',
-    'vue/match-component-file-name': ['error', {
-      extensions: ['js', 'jsx', 'ts', 'tsx', 'vue'],
-      shouldMatchCase: true,
-    }],
     'vue/no-reserved-component-names': 'error',
 
     // @typescript-eslint/recommended overrides
