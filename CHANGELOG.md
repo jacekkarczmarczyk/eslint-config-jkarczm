@@ -1,3 +1,12 @@
+## [4.1.2](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v4.1.1...v4.1.2) (2020-09-01)
+
+
+### Bug Fixes
+
+* remove vue/match-component-file-name ([3d05312](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/3d053129a7849a4d06c677be7958f40519459a72))
+
+
+
 ## [4.1.1](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v4.1.0...v4.1.1) (2020-09-01)
 
 
