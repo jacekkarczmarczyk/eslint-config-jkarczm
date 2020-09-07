@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jkarczm",
-  "version": "4.1.3",
+  "version": "4.1.4",
   "description": "Private opinionated eslint config for Vue/Vuetify/Typescript projects",
   "author": "Jacek Karczmarczyk",
   "license": "MIT",
