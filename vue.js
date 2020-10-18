@@ -37,6 +37,12 @@ module.exports = {
       shouldMatchCase: true,
     }],
     'vue/no-reserved-component-names': 'error',
+    'vue/valid-v-slot': ['error', {
+      allowModifiers: true,
+    }],
+    'vue/custom-event-name-casing': ['error', {
+      ignores: ['/^[a-z]+(?:-[a-z]+)*:[a-z]+(?:-[a-z]+)*$/u'],
+    }],
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',
