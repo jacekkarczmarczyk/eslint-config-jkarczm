@@ -23,7 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "@vue/eslint-config-standard": "^5.1.2",
-    "@vue/eslint-config-typescript": "^5.1.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.20.2",
