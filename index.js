@@ -13,6 +13,7 @@ module.exports = {
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
+    'plugin:sonarjs/recommended',
   ],
   plugins: [
     'html',
