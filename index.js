@@ -72,6 +72,7 @@ module.exports = {
       memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       allowSeparatedGroups: false,
     }],
+    'multiline-ternary': 'off',
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'warn',
