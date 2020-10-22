@@ -18,6 +18,7 @@ module.exports = {
   plugins: [
     'html',
     'node',
+    'sort-destructure-keys',
     '@typescript-eslint',
   ],
   rules: {
@@ -59,6 +60,18 @@ module.exports = {
       'error',
       'as-needed',
     ],
+    'function-call-argument-newline': [
+      'error',
+      'consistent',
+    ],
+    'sort-destructure-keys/sort-destructure-keys': 'error',
+    'sort-imports': ['error', {
+      ignoreCase: true,
+      ignoreDeclarationSort: true,
+      ignoreMemberSort: false,
+      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+      allowSeparatedGroups: false,
+    }],
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'warn',

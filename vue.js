@@ -37,6 +37,7 @@ module.exports = {
       shouldMatchCase: true,
     }],
     'vue/no-reserved-component-names': 'error',
+    'vue/v-on-function-call': 'error',
     'vue/valid-v-slot': ['error', {
       allowModifiers: true,
     }],
