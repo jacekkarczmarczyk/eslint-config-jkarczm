@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     'vue/no-v-html': 'off',
     'vue/eqeqeq': ['error', 'smart'],
+    'vue/require-default-prop': 'off',
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/singleline-html-element-content-newline': 'off',
     'vue/multiline-html-element-content-newline': 'off',
