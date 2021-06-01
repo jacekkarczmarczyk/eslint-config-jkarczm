@@ -6,9 +6,9 @@ module.exports = {
   ],
   plugins: ['vue'],
   rules: {
-    'vue/require-default-prop': 'off',
     'vue/no-v-html': 'off',
-    'vue/prop-name-casing': 'error',
+    'vue/eqeqeq': 'error',
+    /// 'vue/prop-name-casing': 'error',
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/singleline-html-element-content-newline': 'off',
     'vue/multiline-html-element-content-newline': 'off',
@@ -29,7 +29,7 @@ module.exports = {
       alphabetical: true,
     }],
     // 'vue/no-static-inline-styles': 'off', // wip
-    'vue/padding-line-between-blocks': ['error', 'always'],
+    /// 'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/static-class-names-order': 'error',
     'vue/require-name-property': 'error',
     'vue/match-component-file-name': ['error', {
@@ -38,12 +38,10 @@ module.exports = {
     }],
     'vue/no-reserved-component-names': 'error',
     'vue/v-on-function-call': 'error',
-    'vue/valid-v-slot': ['error', {
-      allowModifiers: true,
-    }],
     'vue/custom-event-name-casing': ['error', {
       ignores: ['/^[a-z]+(?:-[a-z]+)*:[a-z]+(?:-[a-z]+)*$/u'],
     }],
+    'vue/no-unused-refs': 'error',
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',

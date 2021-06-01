@@ -96,6 +96,7 @@ module.exports = {
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 'error',
 
+        '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/no-implicit-any-catch': 'error',
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
