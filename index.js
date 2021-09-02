@@ -34,7 +34,6 @@ module.exports = {
     'import/newline-after-import': 'error',
     semi: ['error', 'always'],
     'no-useless-constructor': 'off',
-    'no-var': 'error',
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': ['error', 'always'],
     'padding-line-between-statements': [
