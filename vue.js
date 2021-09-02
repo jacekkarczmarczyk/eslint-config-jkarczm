@@ -42,6 +42,11 @@ module.exports = {
       ignores: ['/^[a-z]+(?:-[a-z]+)*:[a-z]+(?:-[a-z]+)*$/u'],
     }],
     'vue/no-unused-refs': 'off', // https://github.com/vuejs/eslint-plugin-vue/issues/1504
+    'vue/no-unused-properties': ['error', {
+      groups: ['props', 'setup'], // 'props'
+      deepData: false,
+      ignorePublicMembers: true,
+    }],
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',
