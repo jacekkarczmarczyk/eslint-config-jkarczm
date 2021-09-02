@@ -92,7 +92,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/consistent-type-imports': 'error',
-    '@typescript-eslint/no-implicit-any-catch': 'error',
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/member-delimiter-style': [
@@ -125,6 +124,7 @@ module.exports = {
         '@typescript-eslint/no-unused-expressions': 'error',
 
         // '@typescript-eslint/strict-boolean-expressions': 'error', // TODO
+        '@typescript-eslint/no-implicit-any-catch': 'error',
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/member-ordering': 'error',
       },
