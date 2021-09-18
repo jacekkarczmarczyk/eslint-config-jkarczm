@@ -127,6 +127,7 @@ module.exports = {
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/no-unnecessary-condition': 'error',
         '@typescript-eslint/member-ordering': 'error',
+        '@typescript-eslint/restrict-plus-operands': 'error',
       },
     },
   ],
