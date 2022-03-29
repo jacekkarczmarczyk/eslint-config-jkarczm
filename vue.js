@@ -12,6 +12,7 @@ module.exports = {
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/singleline-html-element-content-newline': 'off',
     'vue/multiline-html-element-content-newline': 'off',
+    'vue/no-v-text-v-html-on-component': 'error',
     'vue/attributes-order': ['error', {
       order: [
         'DEFINITION',
