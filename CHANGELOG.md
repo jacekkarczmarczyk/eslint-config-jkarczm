@@ -1,3 +1,12 @@
+## [5.0.2](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.0.1...v5.0.2) (2022-04-20)
+
+
+### Bug Fixes
+
+* add missing eslint-plugin-n ([69a8b30](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/69a8b3027587ec2815310a954983cd33c22964fa))
+
+
+
 ## [4.1.4](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v4.1.3...v4.1.4) (2020-09-07)
 
 
