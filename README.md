@@ -1,5 +1,5 @@
 # eslint-config-jkarczm
-Private opinionated eslint config for Vue/Vuetify/Typescript projects
+Private opinionated eslint config for Vue 2/Vuetify/Typescript projects
 
 ### Install
 ```bash
