@@ -1,3 +1,12 @@
+## [5.1.3](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.2...v5.1.3) (2022-05-26)
+
+
+### Bug Fixes
+
+* eslint version ([0d9d410](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/0d9d4103be654cebc96b7317efcf9d23872c6da4))
+
+
+
 ## [5.1.2](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.1...v5.1.2) (2022-05-26)
 
 
