@@ -1,3 +1,7 @@
+## [5.1.4](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.3...v5.1.4) (2022-05-26)
+
+
+
 ## [5.1.3](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.2...v5.1.3) (2022-05-26)
 
 
