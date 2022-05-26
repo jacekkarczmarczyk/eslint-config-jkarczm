@@ -16,7 +16,8 @@
     "vuetify"
   ],
   "scripts": {
-    "lint": "eslint -c index.js *.js",
+    "lint": "eslint -c index.js *.js && eslint -c vue.js test/*.vue",
+    "fix": "eslint -c index.js *.js --fix && eslint -c vue.js test/*.vue --fix",
     "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && yarn lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags"
   },
   "dependencies": {
@@ -38,9 +39,12 @@
     "typescript": "^4.4.2"
   },
   "devDependencies": {
+    "@vue/composition-api": "^1.6.2",
+    "@vue/runtime-dom": "^3.2.36",
     "conventional-changelog-cli": "^2.0.34",
     "cz-deploy": "^1.0.0-rc.1",
-    "eslint": "^8.2.0"
+    "eslint": "^8.2.0",
+    "unplugin-vue2-script-setup": "^0.11.0"
   },
   "peerDependencies": {
     "eslint": "^7.8.0",

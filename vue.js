@@ -5,6 +5,14 @@ module.exports = {
     '@vue/typescript/recommended',
   ],
   plugins: ['vue'],
+  parserOptions: {
+    extraFileExtensions: ['.vue'],
+    parser: require.resolve('@typescript-eslint/parser'),
+    project: 'tsconfig.json',
+  },
+  env: {
+    'vue/setup-compiler-macros': true,
+  },
   rules: {
     'vue/no-v-html': 'off',
     'vue/eqeqeq': ['error', 'smart'],
@@ -32,7 +40,6 @@ module.exports = {
     // 'vue/no-static-inline-styles': 'off', // wip
     'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/static-class-names-order': 'error',
-    'vue/require-name-property': 'error',
     'vue/match-component-file-name': ['error', {
       extensions: ['vue'],
       shouldMatchCase: true,
@@ -56,4 +63,14 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
   },
+  overrides: [{
+    // Declare <script setup> compiler hints as globals so eslint is happy
+    files: ['./**/*.vue'],
+    globals: {
+      defineProps: 'readonly',
+      defineEmits: 'readonly',
+      defineExpose: 'readonly',
+      withDefaults: 'readonly',
+    },
+  }],
 };
