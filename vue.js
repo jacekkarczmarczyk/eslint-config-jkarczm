@@ -10,9 +10,6 @@ module.exports = {
     parser: require.resolve('@typescript-eslint/parser'),
     project: 'tsconfig.json',
   },
-  env: {
-    'vue/setup-compiler-macros': true,
-  },
   rules: {
     'vue/no-v-html': 'off',
     'vue/eqeqeq': ['error', 'smart'],
@@ -20,7 +17,6 @@ module.exports = {
     'vue/component-name-in-template-casing': ['error', 'kebab-case'],
     'vue/singleline-html-element-content-newline': 'off',
     'vue/multiline-html-element-content-newline': 'off',
-    'vue/no-v-text-v-html-on-component': 'error',
     'vue/attributes-order': ['error', {
       order: [
         'DEFINITION',
