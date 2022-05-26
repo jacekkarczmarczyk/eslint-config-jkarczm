@@ -1,3 +1,12 @@
+# [5.1.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.0.2...v5.1.0) (2022-05-26)
+
+
+### Features
+
+* bump deps, script setup support, .vue test files ([6a40b90](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/6a40b9056cc2d3614defa676514ee3b3d86ee9bf)), closes [#12](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/issues/12) [#9](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/issues/9)
+
+
+
 ## [5.0.2](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.0.1...v5.0.2) (2022-04-20)
 
 
