@@ -1,3 +1,12 @@
+## [5.1.2](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.1...v5.1.2) (2022-05-26)
+
+
+### Bug Fixes
+
+* removed unnecessary env and rule ([b46f7b3](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/b46f7b37bac1757b207b057fc4783e1c4f8a92f9))
+
+
+
 ## [5.1.1](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.0...v5.1.1) (2022-05-26)
 
 
