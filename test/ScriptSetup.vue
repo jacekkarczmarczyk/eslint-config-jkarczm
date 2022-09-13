@@ -8,5 +8,5 @@ const trimmed = computed(() => props.name?.trim());
 </script>
 
 <template>
-  <ScriptNormal :text="trimmed" />
+  <script-normal :text="trimmed" />
 </template>
