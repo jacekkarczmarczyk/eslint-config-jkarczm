@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jkarczm",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "Private opinionated eslint config for Vue 2/Vuetify/Typescript projects",
   "author": "Jacek Karczmarczyk",
   "license": "MIT",
