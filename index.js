@@ -11,7 +11,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
   },
   extends: [
-    'standard',
+    'standard-with-typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:sonarjs/recommended',
   ],
@@ -56,6 +56,7 @@ module.exports = {
       },
     ],
     'promise/prefer-await-to-then': 'error',
+    'prefer-destructuring': 'error',
     'arrow-body-style': [
       'error',
       'as-needed',
@@ -92,7 +93,6 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/consistent-type-imports': 'error',
-    '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/member-delimiter-style': [
       'error',
       {
@@ -109,9 +109,6 @@ module.exports = {
     {
       files: '**/*.ts',
       rules: {
-        // Can't overload function exports with this enabled
-        'import/export': 'error',
-
         // https://github.com/eslint/typescript-eslint-parser/issues/445
         // https://github.com/eslint/typescript-eslint-parser/issues/457
         // enabled in tslint instead
@@ -127,7 +124,12 @@ module.exports = {
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/no-unnecessary-condition': 'error',
         '@typescript-eslint/member-ordering': 'error',
-        '@typescript-eslint/restrict-plus-operands': 'error',
+
+        semi: 'off',
+        '@typescript-eslint/semi': ['error', 'always'],
+
+        'comma-dangle': 'off',
+        '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
       },
     },
   ],
