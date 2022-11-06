@@ -1,3 +1,13 @@
+# [6.1.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.0.0...v6.1.0) (2022-11-06)
+
+
+### Features
+
+* standard-with-typescript ([2888513](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/2888513db01b6633beaf67259cc25f62b81517e5)), closes [#14](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/issues/14)
+* vue/no-undef-properties ([4e17559](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/4e17559338232722ece1c7cd0d1acba6e47c1f41)), closes [#13](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/issues/13)
+
+
+
 ## [5.1.6](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v5.1.5...v5.1.6) (2022-06-15)
 
 
