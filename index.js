@@ -56,11 +56,8 @@ module.exports = {
       },
     ],
     'promise/prefer-await-to-then': 'error',
-    'prefer-destructuring': 'error',
-    'arrow-body-style': [
-      'error',
-      'as-needed',
-    ],
+    'prefer-destructuring': 'off', // https://github.com/eslint/eslint/issues/16514
+    'arrow-body-style': 'off',
     'function-call-argument-newline': [
       'error',
       'consistent',
@@ -104,6 +101,18 @@ module.exports = {
         },
       },
     ],
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
+    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/no-misused-promises': 'off',
+    '@typescript-eslint/no-dynamic-delete': 'off',
+    '@typescript-eslint/no-floating-promises': 'off',
+    '@typescript-eslint/array-type': 'off',
+    '@typescript-eslint/indent': 'off', // to be configured
+    '@typescript-eslint/promise-function-async': 'off', // maybe some day
+    '@typescript-eslint/return-await': 'off', // maybe some day
+    '@typescript-eslint/no-unnecessary-type-assertion': 'off', // needs fix in jetbrains
+    '@typescript-eslint/prefer-reduce-type-parameter': 'error',
   },
   overrides: [
     {
