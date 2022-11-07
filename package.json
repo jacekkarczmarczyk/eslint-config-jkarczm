@@ -18,7 +18,8 @@
   "scripts": {
     "lint": "eslint -c index.js *.js && eslint -c vue.js test/*",
     "fix": "eslint -c index.js *.js --fix && eslint -c vue.js test/* --fix",
-    "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && pnpm run lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags"
+    "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && pnpm run lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags",
+    "prepare-release-no-commit": "cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add ."
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
