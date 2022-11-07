@@ -1,3 +1,12 @@
+# [6.2.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.1.2...v6.2.0) (2022-11-07)
+
+
+### Features
+
+* rule updates ([1eb972c](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/1eb972c8cd15a8eba6df078c8a436fc2ded397d7))
+
+
+
 ## [6.1.2](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.1.1...v6.1.2) (2022-11-06)
 
 
