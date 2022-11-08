@@ -1,3 +1,12 @@
+# [6.3.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.2.0...v6.3.0) (2022-11-08)
+
+
+### Features
+
+* prefer-destructuring ([6e3e8fa](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/6e3e8fa9f8316eac18ba7543e26ba6fd0a89530a))
+
+
+
 # [6.2.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.1.2...v6.2.0) (2022-11-07)
 
 
