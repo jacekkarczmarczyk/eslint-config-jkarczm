@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from '@vue/composition-api';
+import { computed } from 'vue';
 import ScriptNormal from './ScriptNormal.vue';
 
 const props = defineProps<{ name?: string }>();

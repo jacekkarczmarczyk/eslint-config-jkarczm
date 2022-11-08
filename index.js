@@ -9,6 +9,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     parser: '@typescript-eslint/parser',
+    project: 'tsconfig.json',
   },
   extends: [
     'standard-with-typescript',
@@ -56,7 +57,7 @@ module.exports = {
       },
     ],
     'promise/prefer-await-to-then': 'error',
-    'prefer-destructuring': ["error", {
+    'prefer-destructuring': ['error', {
       VariableDeclarator: {
         array: false,
         object: true,

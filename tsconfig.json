@@ -23,7 +23,7 @@
     "jsx": "preserve",
     "esModuleInterop": true,
   },
-  "include": ["test/*.ts", "test/*.vue"],
+  "include": ["test/*.ts", "test/*.vue", "index.js", "vue.js", "vuetify.js"],
   "vueCompilerOptions": {
     "experimentalCompatMode": 2
   }
