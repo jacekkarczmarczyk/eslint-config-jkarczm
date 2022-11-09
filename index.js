@@ -95,7 +95,7 @@ module.exports = {
     ],
 
     // @typescript-eslint/recommended overrides
-    '@typescript-eslint/explicit-function-return-type': 'warn',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/consistent-type-imports': 'error',
@@ -117,7 +117,19 @@ module.exports = {
     '@typescript-eslint/no-dynamic-delete': 'off',
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/array-type': 'off',
-    '@typescript-eslint/indent': 'off', // https://github.com/typescript-eslint/typescript-eslint/issues/1824
+    // https://github.com/typescript-eslint/typescript-eslint/issues/1824
+    '@typescript-eslint/indent': [
+      "error",
+      2,
+      {
+        "ignoredNodes": [
+          "PropertyDefinition[decorators]",
+          "TSUnionType",
+          "TSTypeParameterInstantiation",
+          "TSIntersectionType"
+        ]
+      }
+    ],
     '@typescript-eslint/promise-function-async': 'off', // maybe some day
     '@typescript-eslint/return-await': 'off', // maybe some day
     '@typescript-eslint/no-unnecessary-type-assertion': 'off', // needs a fix in jetbrains
@@ -127,15 +139,9 @@ module.exports = {
     {
       files: '**/*.ts',
       rules: {
-        // https://github.com/eslint/typescript-eslint-parser/issues/445
-        // https://github.com/eslint/typescript-eslint-parser/issues/457
-        // enabled in tslint instead
-        'no-unused-vars': 'off',
+        // https://github.com/typescript-eslint/typescript-eslint/issues/46#issuecomment-470486034
+        // 'no-unused-vars': 'off',
         // '@typescript-eslint/no-unused-vars': 'error',
-
-        // https://github.com/typescript-eslint/typescript-eslint/issues/1220
-        'no-unused-expressions': 'off',
-        '@typescript-eslint/no-unused-expressions': 'error',
 
         // '@typescript-eslint/strict-boolean-expressions': 'error', // TODO
         '@typescript-eslint/no-implicit-any-catch': 'error',

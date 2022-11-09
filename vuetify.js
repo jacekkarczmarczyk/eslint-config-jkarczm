@@ -6,7 +6,4 @@ module.exports = {
   plugins: [
     'vuetify',
   ],
-  rules: {
-    '@typescript-eslint/ban-ts-ignore': 'off',
-  },
 };
