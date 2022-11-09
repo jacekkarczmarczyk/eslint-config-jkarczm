@@ -118,7 +118,9 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/array-type': 'off',
     // https://github.com/typescript-eslint/typescript-eslint/issues/1824
-    '@typescript-eslint/indent': [
+    '@typescript-eslint/indent': 'off',
+    /*
+    [
       "error",
       2,
       {
@@ -130,6 +132,7 @@ module.exports = {
         ]
       }
     ],
+    */
     '@typescript-eslint/promise-function-async': 'off', // maybe some day
     '@typescript-eslint/return-await': 'off', // maybe some day
     '@typescript-eslint/no-unnecessary-type-assertion': 'off', // needs a fix in jetbrains
