@@ -80,6 +80,7 @@ module.exports = {
       allowSeparatedGroups: false,
     }],
     'multiline-ternary': 'off',
+    'func-call-spacing': 'off',
 
     'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
     'unused-imports/no-unused-imports': 'error',
@@ -151,6 +152,7 @@ module.exports = {
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/no-unnecessary-condition': 'error',
         '@typescript-eslint/member-ordering': 'error',
+        '@typescript-eslint/func-call-spacing': ['error'],
 
         semi: 'off',
         '@typescript-eslint/semi': ['error', 'always'],
