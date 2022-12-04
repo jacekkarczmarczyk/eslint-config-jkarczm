@@ -19,7 +19,8 @@
     "lint": "eslint -c .eslintrc.index.js *.js && eslint -c .eslintrc.vue.js test/*",
     "lint:fix": "eslint -c .eslintrc.index.js *.js --fix && eslint -c .eslintrc.vue.js test/* --fix",
     "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && pnpm run lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags",
-    "prepare-release-no-commit": "cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add ."
+    "prepare-release-no-commit": "cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
+    "push": "cz-commit --push --push-tags"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.45.0",
