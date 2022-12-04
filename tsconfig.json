@@ -23,7 +23,15 @@
     "jsx": "preserve",
     "esModuleInterop": true,
   },
-  "include": ["test/*.ts", "test/*.vue"],
+  "include": [
+    "test/*.ts",
+    "test/*.vue",
+    "index.js",
+    "vue.js",
+    "vuetify.js",
+    "./.eslintrc.index.js",
+    "./.eslintrc.vue.js"
+  ],
   "vueCompilerOptions": {
     "experimentalCompatMode": 2
   }

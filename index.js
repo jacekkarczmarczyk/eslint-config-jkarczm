@@ -56,7 +56,7 @@ module.exports = {
       },
     ],
     'promise/prefer-await-to-then': 'error',
-    'prefer-destructuring': ["error", {
+    'prefer-destructuring': ['error', {
       VariableDeclarator: {
         array: false,
         object: true,

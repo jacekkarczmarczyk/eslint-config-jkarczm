@@ -16,42 +16,40 @@
     "vuetify"
   ],
   "scripts": {
-    "lint": "eslint -c index.js *.js && eslint -c vue.js test/*",
-    "fix": "eslint -c index.js *.js --fix && eslint -c vue.js test/* --fix",
+    "lint": "eslint -c .eslintrc.index.js *.js && eslint -c .eslintrc.vue.js test/*",
+    "lint:fix": "eslint -c .eslintrc.index.js *.js --fix && eslint -c .eslintrc.vue.js test/* --fix",
     "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && pnpm run lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags",
     "prepare-release-no-commit": "cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add ."
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "@vue/eslint-config-standard": "^8.0.0",
-    "@vue/eslint-config-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "@vue/eslint-config-typescript": "^11.0.2",
     "eslint-config-standard-with-typescript": "^23.0.0",
-    "eslint-plugin-html": "^7.0.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sonarjs": "^0.16.0",
-    "eslint-plugin-sort-destructure-keys": "^1.3.5",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-vue": "^9.1.1",
-    "eslint-plugin-vuetify": "^1.0.1",
-    "typescript": "~4.7.4"
+    "eslint-plugin-vue": "^9.8.0",
+    "eslint-plugin-vuetify": "^1.1.0"
   },
   "devDependencies": {
-    "@vue/composition-api": "^1.6.2",
-    "@vue/runtime-dom": "^3.2.36",
-    "conventional-changelog-cli": "^2.0.34",
-    "cz-deploy": "^1.0.0-rc.1",
-    "eslint": "^8.27.0",
-    "unplugin-vue2-script-setup": "^0.11.0"
+    "@vue/runtime-dom": "^3.2.45",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-deploy": "^1.0.4",
+    "eslint": "^8.29.0",
+    "typescript": "~4.9",
+    "vue": "^2.7",
+    "vuetify": "^2.3.0"
   },
   "peerDependencies": {
-    "eslint": "^8.27.0",
-    "typescript": "~4.7.4",
-    "vue": "^2.6.11",
-    "vuetify": "^2.3.0"
+    "eslint": "^8.29.0",
+    "typescript": "~4.9"
   },
   "peerDependenciesMeta": {
     "vue": {
