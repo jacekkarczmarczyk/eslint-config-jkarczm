@@ -1,3 +1,12 @@
+# [6.5.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.4.0...v6.5.0) (2022-12-04)
+
+
+### Features
+
+* func-call-spacing ([77c8d3d](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/77c8d3de721cc819412f5c0ab01f500e32fa6757))
+
+
+
 # [6.3.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.2.0...v6.3.0) (2022-11-08)
 
 
