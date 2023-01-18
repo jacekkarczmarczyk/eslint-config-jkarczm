@@ -1,3 +1,7 @@
+# [7.0.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.5.1...v7.0.0) (2023-01-18)
+
+
+
 ## [6.5.1](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.5.0...v6.5.1) (2022-12-09)
 
 
