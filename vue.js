@@ -52,6 +52,10 @@ module.exports = {
       deepData: false,
       ignorePublicMembers: true,
     }],
+    'vue/first-attribute-linebreak': ['error', {
+      singleline: 'beside',
+      multiline: 'below',
+    }],
 
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/no-non-null-assertion': 'off',
