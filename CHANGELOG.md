@@ -1,3 +1,13 @@
+# [7.1.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v7.0.0...v7.1.0) (2023-03-12)
+
+
+### Features
+
+* bump deps ([df89d8d](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/df89d8d555b262d2146281dd24bd8ea57fbf370e))
+* vue/first-attribute-linebreak single side beside ([a03c980](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/a03c98023372e1ed8a2cea21db0ada6bc908281f))
+
+
+
 # [7.0.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v6.5.1...v7.0.0) (2023-01-18)
 
 
