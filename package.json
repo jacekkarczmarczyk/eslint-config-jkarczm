@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jkarczm",
-  "version": "10.0.0-beta.4",
+  "version": "10.0.0",
   "description": "Private opinionated eslint config for Vue 2/Vuetify/Typescript projects",
   "author": "Jacek Karczmarczyk",
   "license": "MIT",
@@ -37,7 +37,7 @@
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "eslint-plugin-vue": "^9.13.0",
-    "eslint-plugin-vuetify": "^2.0.0-beta.2"
+    "eslint-plugin-vuetify": "2.0.0-beta.4"
   },
   "devDependencies": {
     "@vue/runtime-dom": "^3.3.2",
@@ -45,8 +45,8 @@
     "cz-deploy": "^1.0.4",
     "eslint": "^8.40.0",
     "typescript": "~4.9.5",
-    "vue": "^3.0.0",
-    "vuetify": "^3.0.0"
+    "vue": "^3.3.2",
+    "vuetify": "^3.2.5"
   },
   "peerDependencies": {
     "eslint": "^8.32.0",
