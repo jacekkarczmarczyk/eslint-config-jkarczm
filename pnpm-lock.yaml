@@ -55,8 +55,8 @@ devDependencies:
     specifier: ^2.2.2
     version: 2.2.2
   cz-deploy:
-    specifier: ^1.0.4
-    version: 1.0.4
+    specifier: ^2.0.0
+    version: 2.0.0
   eslint:
     specifier: ^8.40.0
     version: 8.40.0
@@ -865,8 +865,8 @@ packages:
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
-  /cz-deploy@1.0.4:
-    resolution: {integrity: sha512-umkuMRis5Xvm1mRJZMHvw2sDhI0EMWn6ehqplucAAwEBLeG98o767KyONmQZ7q8YDOkdee4r5Cz2YALleL63wg==}
+  /cz-deploy@2.0.0:
+    resolution: {integrity: sha512-zGaDiQ3pHeyUF61rjZSWENteQyZDd8VfQXG2q0K7A75ShRB+vB0D5Eodf8CEBJLUBegdPcIixl9UaFoTj01gbA==}
     hasBin: true
     dependencies:
       semver: 7.5.1
