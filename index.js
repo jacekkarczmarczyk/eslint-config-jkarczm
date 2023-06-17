@@ -32,7 +32,6 @@ module.exports = {
     'no-extra-semi': 'error',
     'no-return-await': 'warn',
     'newline-after-var': ['error', 'always'],
-    'import/newline-after-import': 'error',
     semi: ['error', 'always'],
     'no-useless-constructor': 'off',
     'one-var': ['error', 'never'],
@@ -55,7 +54,6 @@ module.exports = {
         next: 'return',
       },
     ],
-    'promise/prefer-await-to-then': 'error',
     'prefer-destructuring': ['error', {
       VariableDeclarator: {
         array: false,
@@ -71,7 +69,6 @@ module.exports = {
       'error',
       'consistent',
     ],
-    'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-imports': ['error', {
       ignoreCase: true,
       ignoreDeclarationSort: true,
@@ -81,8 +78,19 @@ module.exports = {
     }],
     'multiline-ternary': 'off',
     'func-call-spacing': 'off',
-
     'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
+
+    // sort-destructure-keys
+    'sort-destructure-keys/sort-destructure-keys': 'error',
+
+    // promise
+    'promise/prefer-await-to-then': 'error',
+
+    // import
+    'import/newline-after-import': 'error',
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
+
+    // unused-imports
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'error',
@@ -98,7 +106,13 @@ module.exports = {
     // @typescript-eslint/recommended overrides
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        prefer: 'type-imports',
+        fixStyle: 'separate-type-imports',
+      },
+    ],
     '@typescript-eslint/member-delimiter-style': [
       'error',
       {
