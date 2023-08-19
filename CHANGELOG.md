@@ -1,3 +1,12 @@
+# [9.0.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v8.0.3...v9.0.0) (2023-08-19)
+
+
+### Bug Fixes
+
+* missing cosmiconfig ([b968667](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/commit/b9686676588083e00d6eba03cb34929065232b95))
+
+
+
 ## [8.0.3](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v8.0.2...v8.0.3) (2023-06-17)
 
 
