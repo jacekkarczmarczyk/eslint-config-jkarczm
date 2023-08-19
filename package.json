@@ -43,6 +43,7 @@
   "devDependencies": {
     "@vue/runtime-dom": "^3.3.4",
     "conventional-changelog-cli": "^3.0.0",
+    "cosmiconfig": "^8.2.0",
     "eslint": "^8.47.0",
     "typescript": "^5.1.6",
     "vue": "^2.7.14",
