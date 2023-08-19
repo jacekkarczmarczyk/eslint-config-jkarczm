@@ -1,3 +1,7 @@
+## [9.0.1](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v9.0.0...v9.0.1) (2023-08-19)
+
+
+
 # [9.0.0](https://github.com/jacekkarczmarczyk/eslint-config-jkarczm/compare/v8.0.3...v9.0.0) (2023-08-19)
 
 
