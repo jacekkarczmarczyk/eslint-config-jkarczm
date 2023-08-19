@@ -26,13 +26,11 @@ module.exports = {
     // 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'arrow-parens': ['error', 'as-needed'],
-    'comma-dangle': ['error', 'always-multiline'],
     'object-shorthand': ['error', 'always'],
     'no-empty': 'error',
     'no-extra-semi': 'error',
     'no-return-await': 'warn',
     'newline-after-var': ['error', 'always'],
-    semi: ['error', 'always'],
     'no-useless-constructor': 'off',
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': ['error', 'always'],
@@ -151,28 +149,22 @@ module.exports = {
     '@typescript-eslint/return-await': 'off', // maybe some day
     '@typescript-eslint/no-unnecessary-type-assertion': 'off', // needs a fix in jetbrains
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
+
+    // https://github.com/typescript-eslint/typescript-eslint/issues/46#issuecomment-470486034
+    // 'no-unused-vars': 'off',
+    // '@typescript-eslint/no-unused-vars': 'error',
+
+    // '@typescript-eslint/strict-boolean-expressions': 'error', // TODO
+    '@typescript-eslint/no-implicit-any-catch': 'error',
+    '@typescript-eslint/no-unsafe-argument': 'error',
+    '@typescript-eslint/no-unnecessary-condition': 'error',
+    '@typescript-eslint/member-ordering': 'error',
+    '@typescript-eslint/func-call-spacing': ['error'],
+
+    semi: 'off',
+    '@typescript-eslint/semi': ['error', 'always'],
+
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
   },
-  overrides: [
-    {
-      files: '**/*.ts',
-      rules: {
-        // https://github.com/typescript-eslint/typescript-eslint/issues/46#issuecomment-470486034
-        // 'no-unused-vars': 'off',
-        // '@typescript-eslint/no-unused-vars': 'error',
-
-        // '@typescript-eslint/strict-boolean-expressions': 'error', // TODO
-        '@typescript-eslint/no-implicit-any-catch': 'error',
-        '@typescript-eslint/no-unsafe-argument': 'error',
-        '@typescript-eslint/no-unnecessary-condition': 'error',
-        '@typescript-eslint/member-ordering': 'error',
-        '@typescript-eslint/func-call-spacing': ['error'],
-
-        semi: 'off',
-        '@typescript-eslint/semi': ['error', 'always'],
-
-        'comma-dangle': 'off',
-        '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
-      },
-    },
-  ],
 };
