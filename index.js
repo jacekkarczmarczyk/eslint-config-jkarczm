@@ -155,7 +155,6 @@ module.exports = {
     // '@typescript-eslint/no-unused-vars': 'error',
 
     // '@typescript-eslint/strict-boolean-expressions': 'error', // TODO
-    '@typescript-eslint/no-implicit-any-catch': 'error',
     '@typescript-eslint/no-unsafe-argument': 'error',
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/member-ordering': 'error',
