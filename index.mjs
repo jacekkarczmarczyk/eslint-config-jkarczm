@@ -10,11 +10,11 @@ module.exports = {
     sourceType: 'module',
     parser: '@typescript-eslint/parser',
   },
-  extends: [
-    'standard-with-typescript',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:sonarjs/recommended',
-  ],
+  // extends: [
+  //   'standard-with-typescript',
+  //   'plugin:@typescript-eslint/recommended',
+  //   'plugin:sonarjs/recommended',
+  // ],
   plugins: [
     'html',
     'node',

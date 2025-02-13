@@ -1,6 +1,8 @@
-module.exports = {
-  extends: ['./index.js'],
-  parser: 'vue-eslint-parser',
+import parser from 'vue-eslint-parser';
+
+export default {
+  ecmaVersion: "latest",
+  parser,
   parserOptions: {
     project: 'tsconfig.json',
     parser: {

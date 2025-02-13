@@ -1,9 +1,9 @@
 module.exports = {
-  extends: [
-    './index',
-    'plugin:vue/recommended',
-    '@vue/typescript/recommended',
-  ],
+  // extends: [
+  //   './index',
+  //   'plugin:vue/recommended',
+  //   '@vue/typescript/recommended',
+  // ],
   plugins: ['vue'],
   parserOptions: {
     extraFileExtensions: ['.vue'],

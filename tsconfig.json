@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "module": "esnext",
+    "allowJs": true,
+    "module": "ESNext",
     "lib": ["dom", "esnext"],
     "importHelpers": true,
     "types": [
       "unplugin-vue2-script-setup/types"
     ],
-
     // trying to get auto `import type` insertion for type imports
     // doesn't work so far: https://github.com/microsoft/TypeScript/pull/36412#issuecomment-707221008
     "isolatedModules": true,
@@ -24,13 +24,10 @@
     "esModuleInterop": true,
   },
   "include": [
-    "test/*.ts",
-    "test/*.vue",
-    "index.js",
-    "vue.js",
-    "vuetify.js",
-    "./.eslintrc.index.js",
-    "./.eslintrc.vue.js"
+    "test/*",
+    "./*.mjs",
+    ".eslintrc.index.mjs",
+    ".eslintrc.vue.mjs",
   ],
   "vueCompilerOptions": {
     "experimentalCompatMode": 2

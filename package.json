@@ -4,11 +4,12 @@
   "description": "Private opinionated eslint config for Vue 2/Vuetify/Typescript projects",
   "author": "Jacek Karczmarczyk",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.mjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacekkarczmarczyk/eslint-config-jkarczm.git"
   },
+  "type": "module",
   "keywords": [
     "eslint",
     "typescript",
@@ -16,41 +17,47 @@
     "vuetify"
   ],
   "scripts": {
-    "lint": "eslint -c .eslintrc.index.js *.js && eslint -c .eslintrc.vue.js test/*",
-    "lint:fix": "eslint -c .eslintrc.index.js *.js --fix && eslint -c .eslintrc.vue.js test/* --fix",
+    "lint": "pnpm lint:js && pnpm @lint:vue",
+    "lint:js": "eslint -c .eslintrc.index.mjs",
+    "lint:vue": "eslint -c .eslintrc.vue.mjs",
+    "lint:fix": "pnpm lint:fix:js && pnpm lint:fix:vue",
+    "lint:fix:js": "eslint -c .eslintrc.index.mjs *.mjs --fix",
+    "lint:fix:vue": "eslint -c .eslintrc.vue.mjs test/* --fix",
     "release": "git checkout dev && git reset && git diff --name-status --exit-code HEAD && pnpm run lint && cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add . && cz-commit --push --push-tags",
     "prepare-release-no-commit": "cz-update-version && conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "push": "cz-commit --push --push-tags"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.4.0",
-    "@vue/eslint-config-standard": "^8.0.1",
-    "@vue/eslint-config-typescript": "^11.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "@vue/eslint-config-standard": "^9.0.0",
+    "@vue/eslint-config-typescript": "^14.4.0",
     "cz-deploy": "^3.0.1",
-    "eslint-config-standard-with-typescript": "^38.0.0",
-    "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.0.1",
+    "eslint-config-love": "^118.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.15.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-sonarjs": "^0.20.0",
-    "eslint-plugin-sort-destructure-keys": "^1.5.0",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "eslint-plugin-vue": "^9.17.0",
-    "eslint-plugin-vuetify": "^1.1.0"
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-sonarjs": "^3.0.1",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "eslint-plugin-vue": "^9.32.0",
+    "eslint-plugin-vuetify": "^1.1.0",
+    "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {
-    "@vue/runtime-dom": "^3.3.4",
-    "conventional-changelog-cli": "^3.0.0",
-    "eslint": "^8.47.0",
-    "typescript": "^5.1.6",
-    "vue": "^2.7.14",
-    "vuetify": "^2.7.1"
+    "@vue/runtime-dom": "^3.5.13",
+    "conventional-changelog-cli": "^5.0.0",
+    "eslint": "^9.20.1",
+    "typescript": "^5.8.0-beta",
+    "vue": "^2.7.16",
+    "vuetify": "^2.7.2"
   },
   "peerDependencies": {
-    "eslint": "^8.47.0",
-    "typescript": "~5.1.6"
+    "eslint": "^9.20.1",
+    "typescript": "^5.8.0-beta"
   },
   "peerDependenciesMeta": {
     "vue": {
